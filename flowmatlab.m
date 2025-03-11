@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-%% Generate Synthetic Data
+%% Generate Data
 L = 1; % Domain size (square domain)
 N = 50; % Number of points in each direction
 total_points = N*N;
