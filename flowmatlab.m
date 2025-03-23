@@ -17,7 +17,7 @@ X_data = [x, y, t]';
 u_true = sin(pi * x) .* (1 - cos(pi * y));
 v_true = -sin(pi * y) .* (1 - cos(pi * x));
 p_true = -0.25 * (cos(2 * pi * x) + cos(2 * pi * y));
-U_true = [nu_true, v_true, p_true]';
+U_true = [u_true, v_true, p_true]';
 
 %% Define Neural Network
 layers = [ 
